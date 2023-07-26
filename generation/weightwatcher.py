@@ -182,7 +182,7 @@ if __name__ == "__main__":
     # tokenizer.pad_token_id = -1
     print('Model loaded.')
     
-    import weightwacher as ww
+    import weightwatcher as ww
     import pandas as pd
 
     watcher = ww.WeightWatcher(model=model)
